@@ -62,6 +62,7 @@ function App() {
                         className="h-10 w-[80%] rounded-l-full p-2 font-bold pl-4"
                         value={inputValue}
                         onChange={handleChange}
+                        readOnly
                     />
                     <button
                         type="submit"
